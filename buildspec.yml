@@ -9,3 +9,7 @@ phases:
     commands:
       echo "deu certo?"
       mvn clean install -DskipTests
+  post_build:
+    commands:
+      echo"Sucesso!"
+      
